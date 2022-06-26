@@ -1,0 +1,2 @@
+instead of changing all the local url one by one in every file of your react app, put the local server url,for example: http://localhost:3001 one global variable that you can use in process.env or import the file.
+consider to use global js file that you can import for codes that is used too frequently, and .env for strings like url

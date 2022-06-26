@@ -1,0 +1,31 @@
+
+.mother_box > div {
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+}
+
+.boxes:nth-child(3) {
+  background-color: red;
+}
+
+/* all flex items wants to be as smallest as it can possibly get to while maintaining everything on one line */
+.mother_box {
+  display: flex;
+  /* flex-wrap allow flex to have multiple rows when squeezed */
+  flex-wrap: wrap;
+}
+
+.mother_box .boxes {
+  /* this is the default value of flex-grow */
+  flex-grow: 0;
+  /* this makes the child/childs grow to fit the space of its parent */
+  flex-grow: 1;
+  /* flex-shrink decide wether the width of the selected childs can shrink even more or not by increasing its height */
+  /* this is the default, which is allow to shrink and increase its height */
+  flex-shrink: 1;
+  /* this prevent the childs to shrink */
+  flex-shrink: 0;
+}
+
+/* TODO: conticue kevin powell flex made simple, about flex-basis */

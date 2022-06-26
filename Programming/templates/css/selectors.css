@@ -1,0 +1,32 @@
+div {
+  /* select all div tags */
+}
+li {
+  /* select all li tags */
+}
+.masterClass {
+  /* select all tags that have a class called masterClass */
+}
+#masterClass {
+  /* select the tag that have masterClass id */
+}
+
+.masterClass a {
+  /* select all anchor tags that are a descendant of all tags that have a class called masterClass */
+}
+li > a {
+  /* select all anchor tags that are a direct-descendant of a li tags */
+}
+li, a {
+  /* select all li elements and all anchor elements */
+}
+
+.masterClass * {
+  /* select all tags/elements that are descendant of the element that have a class called masterClass */
+}
+div.masterClass {
+  /* select all div tag that have a class called 'masterClass' */
+}
+
+/* for more informations visit: */
+/* https://www.freecodecamp.org/news/css-selectors-cheat-sheet/ */

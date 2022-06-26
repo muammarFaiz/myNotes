@@ -1,0 +1,14 @@
+keywords:
+- focused mode vs difused mode
+- detail picture vs big picture
+- unconcious mind influenced by thought, memory, emotion and motivation
+- uncocious mind that more active when we resting called default mode network
+- you are not the same person after your sleep, its as if you went to bed with one brain and woke up with an upgrade
+- after waking up your brain upgraded as if you just installed the data that you gather before you sleep
+- moving memory from working memory to long term memory using space repetition
+- brain have metabolic toxins that flushed out when we sleep
+- dreaming about what you're studying can substantially enhance your ability to understand
+- being active makes your brain twice more stronger, in learning and memory
+- success is passionate and presistence, stay and not letting go, not giving up
+- there is a lot of thing to discover, ordinary things, you just have to look at them with different set of eyes/perspective
+- the important of practice and repetition make something permanent in memory
