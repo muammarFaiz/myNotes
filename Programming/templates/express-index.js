@@ -4,11 +4,14 @@ const express = require('express');
 const cors = require('cors');
 const multer = require('multer');
 const app = express();
+const session = require('express-session');
 require('./passportStrategy')
 
 app.use(cors());
-app.use(express.urlencoded({extended: true}));
-app.use(express.json());
+
+// to avoid transfer limitation use {limit: infinity} on urlencoded and json
+app.use(express.urlencoded({extended: true, limit: Infinity}));
+app.use(express.json({limit: Infinity}));
 app.use(express.static(__dirname + '/images'));
 
 // session
